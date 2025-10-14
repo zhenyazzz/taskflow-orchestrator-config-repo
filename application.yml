@@ -19,17 +19,15 @@ kafka:
     comment-updated: "comment.updated"
     comment-deleted: "comment.deleted"
 
-    # User events
-    user-created: "user.created"
-    user-registered: "user.registered"
-    user-deleted: "user.deleted"
-    user-profile-updated: "user.profile.updated"
-    user-registration: "user.registration"
-    user-role-update: "user.role.updated"
-
     # Auth events
+    user-registered: "user.registered"
+    user-role-updated: "user.role.updated"
     user-login-success: "auth.login.success"
     user-login-failed: "auth.login.failed"
-    user-logout: "auth.logout"
-    token-refreshed: "auth.token.refreshed"
-    password-changed: "auth.password.changed"
+    
+    # User and events
+    user-created: "user.created"
+    user-deleted: "user.deleted"
+    user-profile-updated: "user.profile.updated"
+    
+    
