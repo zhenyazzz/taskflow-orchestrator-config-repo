@@ -28,7 +28,6 @@ kafka:
     user-role-update: "user.role.updated"
 
     # Auth events
-    user-login: "auth.login.success"
     user-login-success: "auth.login.success"
     user-login-failed: "auth.login.failed"
     user-logout: "auth.logout"
