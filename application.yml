@@ -1,3 +1,6 @@
+jwt:
+  secret: aXv7j3tR8kL9mQp2sV5y7x9A1zC4E7H0bW3cZ6u8oP1dF4rT5nJ9iK2lO0q
+  
 kafka:
   topics:
     # Task events
